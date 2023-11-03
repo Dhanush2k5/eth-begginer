@@ -1,8 +1,8 @@
-Project Title
+# Project Title
 
 MyToken - A Simple Ethereum Token Contract
 
-Description
+## Description
 
 MyToken is a Solidity smart contract that implements a basic cryptocurrency token on the Ethereum blockchain. The contract includes the following features:
 
@@ -11,9 +11,9 @@ A mapping of Ethereum addresses to token balances.
 A mint function that allows the creation of new tokens by increasing the total supply and the balance of a specified address.
 A burn function that allows the destruction of tokens by reducing the total supply and the balance of a specified address. This function checks if the sender has a sufficient balance to burn the requested amount.
 
-Getting Started
+## Getting Started
 
-Installing
+### Installing
 To use the MyToken contract, follow these steps:
 
 Create a new Solidity smart contract file (e.g., MyToken.sol).
@@ -27,7 +27,7 @@ Deploy the contract: Deploy the compiled contract to the Ethereum blockchain usi
 
 Interact with the contract: After deployment, you can interact with the contract using Ethereum wallets, Ethereum JavaScript libraries (such as web3.js or ethers.js), or by sending transactions directly from Remix. Use the mintT and burnT functions to mint and burn tokens.
 
-Here's an example of how to mint tokens using web3.js:
+# Here's an example of how to mint tokens using web3.js:
 
 javascript
 Copy code
@@ -61,13 +61,13 @@ contract.methods.burnT(account, amountToBurn).send({ from: account })
     console.error('Error burning tokens:', error);
   });
   
-Help
+## Help
 If you encounter any issues or have questions about using the MyToken contract, please refer to Ethereum development documentation or community forums for assistance.
-
-Authors
+ 
+## Authors
 This smart contract was created by
 dhanush
 rsadhanush@gmail.com
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE.md file for details.
